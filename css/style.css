@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 250px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.list {
+    line-height: 1.7;
+    padding: 0;
+}
+
+.list li { margin-bottom: 0px; }
+.list li:last-child { margin-bottom: inherit; }
+.experience>li { margin-bottom: 25px; }
+
+#resume h4 { clear: both; margin-top: 15px; border-bottom: 1px solid #ccc; }
+.summary, .certs { list-style-position: inside; }
+.education, .experience { list-style-type: none; }
+.education h5, .experience h5 { float: left; margin: 0 inherit; }
+.education h6, .experience h6 { font-weight: bold; }
+.title { clear: both; font-weight: bold; margin: 0 inherit; }
+.date { float: right; clear: none; margin: 0 15px 0 0; }
+.skills dd, .description { color: #666; }
+
+dl.skills  { padding: 0 0 2.2em; margin: 0; }
+.skills dt { padding-top: .5em; font-size: 1.1em; clear: left; font-weight: bold; }
+dd.skill { margin: .25em .25em 0 0; padding: 0; float: left; display: block; white-space: nowrap; }
+dd.skill:after { content:', '; }
+dd.skill:last-child:after { content: '.'; }
+
+.blink {
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+#imagelightbox {
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+@media (min-width: 768px) {
+
+  #skills_col1, #skills_col2 {
+      display: block;
+      float: left;
+      width: 50%;
+  }
+  #skills_col1 {
+      padding-right: 20px;
+  }
+}

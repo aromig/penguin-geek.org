@@ -1,12 +1,2 @@
-css/bootstrap-theme.css
 *.map
-css/bootstrap-theme.min.css
-css/bootstrap.min.css
-*.eot
-fonts/glyphicons-halflings-regular.svg
-*.ttf
-fonts/glyphicons-halflings-regular.woff
-*.woff2
-js/bootstrap.js
-js/bootstrap.min.js
-css/bootstrap.css
+resume/awards/*
