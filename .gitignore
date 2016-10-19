@@ -1,2 +1,4 @@
 *.map
 resume/awards/*
+
+.DS_Store
