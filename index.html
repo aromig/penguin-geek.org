@@ -52,36 +52,35 @@
 
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="icon-block">
             <a href="/resume/index.html">
-              <h2 class="center light-blue-text text-darken-3"><i class="material-icons">description</i></h2>
-              <h5 class="center">Resume</h5>
+              <h5 class="center light-blue-text text-darken-3"><i class="material-icons">description</i> Resume</h5>
             </a>
             <p class="light">I have provided exceptional customer service within the IT industry for many years and am very knowledgeable in web technologies. Check out my skill sets and past experience to see for yourself.</p>
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="icon-block">
             <a href="/resume/portfolio.html">
-              <h2 class="center light-blue-text text-darken-3"><i class="material-icons">perm_media</i></h2>
-              <h5 class="center">Portfolio</h5>
+              <h5 class="center light-blue-text text-darken-3"><i class="material-icons">perm_media</i> Portfolio</h5>
             </a>
 
-            <p class="light">Want to see the projects I have been a part of? View examples of my past work in web development, web design, and graphic design.</p>
+            <p class="light">Want to see the projects I have been a part of? View examples of my past work in web development and graphic design.</p>
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m6 hide">
           <div class="icon-block">
             <a href="#social">
-              <h2 class="center light-blue-text text-darken-3"><i class="material-icons">message</i></h2>
+              <h3 class="center light-blue-text text-darken-3"><i class="material-icons">message</i></h3>
               <h5 class="center">Social</h5>
             </a>
             <p class="light center">Twitter &bull; <a href="https://twitter.com/penguingeek" target="_blank">@penguingeek</a></p>
             <p class="light center">GitHub &bull; <a href="https://github.com/aromig" target="_blank">aromig</a></p>
             <p class="light center">LinkedIn &bull; <a href="http://www.linkedin.com/in/adamromig/" target="_blank">adamromig</a></p>
+            <p class="light center">Codepen &bull; <a href="http://codepen.io/penguingeek" target="_blank">penguingeek</a></p>
           </div>
         </div>
       </div>
@@ -103,17 +102,34 @@
     <div class="parallax"><img src="images/penguins_african_bg.jpg" alt="African Penguins"></div>
   </div>
 
-  <div id="resume" class="container">
+  <div id="social" class="container">
     <div class="section">
 
       <div class="row">
-        <div class="col s12 m6 center">
+        <div id="fm-medium-embed"></div>
+        
+        <script src="http://data.feedmirror.com/embed.js"></script>
+        <script>
+          var fmSettings = {
+            feedURL: 'https://data.feedmirror.com/-L6vn7hzVaHX8M0GpbO5.json',
+            integration: 'medium-embed',
+            linkOutText: 'Read more',
+            linkToMediumProfileText: 'Subscribe on Medium',
+            postsCount: 3,
+            element: 'fm-medium-embed'
+          };
+          feedmirror.initialize(fmSettings);
+        </script>
+      </div>
+
+      <div class="row">
+        <div id="github" class="col s12 m6 center">
           <iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=aromig&type=user" width="300" height="300"></iframe>
         </div>
 
-        <div class="col s12 m6 center">
-          <a class="twitter-timeline" href="https://twitter.com/penguingeek" data-widget-id="649957731638640640">Tweets by @penguingeek</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <div id="twitter" class="col s12 m6 center">
+          <a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/penguingeek?ref_src=twsrc%5Etfw">Tweets by penguingeek</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
 
       </div>
@@ -134,7 +150,6 @@
         <div id="social" class="col l6 s12 center">
             <a id="Email" href="mailto:adam@penguin-geek.org" title="Email Me"><img src="images/mail.png" alt="Email me" /></a>
             <a id="LinkedIn" href="http://www.linkedin.com/in/adamromig/" title="Connect with me on LinkedIn"><img src="images/linkedin.png" alt="Find me on LinkedIn" /></a>
-            <a id="Facebook" href="https://www.facebook.com/penguingeek" title="Connect with me on Facebook"><img src="images/facebook.png" alt="Find me on Facebook" /></a>
             <a id="Twitter" href="https://twitter.com/penguingeek" title="Connect with me on Twitter"><img src="images/twitter.png" alt="Find me on Twitter" /></a>
         </div>
       </div>
